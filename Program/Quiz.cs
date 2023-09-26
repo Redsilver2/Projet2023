@@ -15,7 +15,7 @@ namespace Program
 
             {
 
-                string? sRep;
+                string sRep;
 
 
                 Console.WriteLine("Connaissez-vous vos capitale?");

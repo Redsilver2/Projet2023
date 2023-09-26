@@ -24,6 +24,7 @@ namespace Program
                 switch (input.ToLower())
                 {
                     case "quiz":
+                        new Quiz();
                         break;
 
                     case "metric":
