@@ -48,7 +48,7 @@ namespace Program
 
                 Console.WriteLine("Question 3 : Quel est la capitale de la Grèce?");
                 sRep = Console.ReadLine();
-                if (sRep == "Athènes" || sRep == "athènes" || sRep == "Athenes" || sRep == "athene")
+                if (sRep == "Athènes" || sRep == "athènes" || sRep == "Athenes" || sRep == "athenes")
                 {
                     Console.WriteLine("Bonne Réponse!");
                 }
