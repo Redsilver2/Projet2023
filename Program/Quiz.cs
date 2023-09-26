@@ -16,6 +16,7 @@ namespace Program
             {
 
                 string sRep;
+                int iScore = 0;
 
 
                 Console.WriteLine("Connaissez-vous vos capitale?");
@@ -25,6 +26,7 @@ namespace Program
                 if (sRep == "Paris" || sRep == "paris")
                 {
                     Console.WriteLine("Bonne Réponse!");
+                    iScore = iScore + 1;
                 }
                 else
                 {
@@ -35,9 +37,10 @@ namespace Program
 
                 Console.WriteLine("Question 2 : Quel est la capitale de l'Espagne?");
                 sRep = Console.ReadLine();
-                if (sRep == "Madrid" || sRep == "madird")
+                if (sRep == "Madrid" || sRep == "madrid")
                 {
                     Console.WriteLine("Bonne Réponse!");
+                    iScore = iScore + 1;
                 }
                 else
                 {
@@ -51,6 +54,7 @@ namespace Program
                 if (sRep == "Athènes" || sRep == "athènes" || sRep == "Athenes" || sRep == "athenes")
                 {
                     Console.WriteLine("Bonne Réponse!");
+                    iScore = iScore + 1;
                 }
                 else
                 {
@@ -65,6 +69,7 @@ namespace Program
                 if (sRep == "Amsterdam" || sRep == "amsterdam")
                 {
                     Console.WriteLine("Bonne Réponse!");
+                    iScore = iScore + 1;
                 }
                 else
                 {
@@ -74,9 +79,10 @@ namespace Program
 
                 Console.WriteLine("Question 5 : Quel est la capitale du Royaume-Uni?");
                 sRep = Console.ReadLine();
-                if (sRep == "Londres" || sRep == "londre")
+                if (sRep == "Londres" || sRep == "londres")
                 {
                     Console.WriteLine("Bonne Réponse!");
+                    iScore = iScore + 1;
                 }
                 else
                 {
@@ -89,11 +95,13 @@ namespace Program
                 if (sRep == "Berlin" || sRep == "berlin")
                 {
                     Console.WriteLine("Bonne Réponse!");
+                    iScore = iScore + 1;
                 }
                 else
                 {
                     Console.WriteLine("Mauvaise réponse...");
                 }
+                Console.WriteLine("Votre score finale est de : " +  iScore + " / 6");
             }
         }
     }
