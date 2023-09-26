@@ -18,7 +18,7 @@ namespace Program
             
             while (true)
             {
-                Console.WriteLine("\nQuel option voulez-vous choisir (Quiz, Weather, Money or Quit) ?");
+                Console.WriteLine("\nQuel option voulez-vous choisir (Quiz, Weather, Metric or Quit) ?");
                 string input = Console.ReadLine();
 
                 switch (input.ToLower())
@@ -26,7 +26,8 @@ namespace Program
                     case "quiz":
                         break;
 
-                    case "weather":
+                    case "metric":
+                        new Metric();
                         break;
 
                     case "money":
@@ -35,6 +36,8 @@ namespace Program
                  
                     case "quit":
                         Console.WriteLine("\nPassez une belle journée.");
+                        Console.WriteLine("Appuyez sur un clé pour continuer");
+                        Console.ReadKey();
                         return;
 
                     default:

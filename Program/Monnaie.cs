@@ -4,11 +4,11 @@ public class Monnaie
 {
     public Monnaie()
     {
-        string? sMoneytypes;
-        string? sAn;
-        string? sAn2;
-        string? sAn3;
-        string? sLin;
+        string sMoneytypes;
+        string sAn;
+        string sAn2;
+        string sAn3;
+        string sLin;
 
         double dFinal;
 
