@@ -2,8 +2,8 @@
 
 public class Monnaie
 {
-	public Monnaie()
-	{
+    public Monnaie()
+    {
         string? sMoneytypes;
         string? sAn;
         string? sAn2;
@@ -104,4 +104,6 @@ public class Monnaie
                 dFinal = dArgent * 1.07;
                 Console.WriteLine(sAn3 + "EUR = " + dFinal + "US");
             }
+        }
+    }
 }

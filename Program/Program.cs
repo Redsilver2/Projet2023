@@ -30,6 +30,7 @@ namespace Program
                         break;
 
                     case "money":
+                        new Monnaie();
                         break;
                  
                     case "quit":
